@@ -10,71 +10,131 @@
 		<div class="container">
 			<h1>Spor Haberleri</h1>
 
-            <!-- main  -->
+			<!-- main  -->
 			<main>
-				<div class="content content1">
-					<img src="./img/a-1.jpeg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
+				<a href="#" class="content content1">
+					<div class="box box1">
+						<img src="./img/a-1.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
 					</div>
-				</div>
-				<div class="content content2">
-					<img src="./img/a-3.jpg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
+				</a>
+				<a href="#" class="content content2">
+					<div class="box box2">
+						<img src="./img/a-3.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
 					</div>
-				</div>
-				<div class="content content3">
-					<img src="./img/a-2.jpeg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
+				</a>
+				<a href="#" class="content content3">
+					<div class="box box3">
+						<img src="./img/a-2.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
 					</div>
-				</div>
-				<div class="content content4">
-					<img src="./img/a-4.jpeg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
+				</a>
+				<a href="#" class="content content4">
+					<div class="box box4">
+						<img src="./img/a-4.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
 					</div>
-				</div>
-				<div class="content content5">
-					<img src="./img/a-5.jpg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
-					</div>
-				</div>
-				<div class="content content6">
-					<img src="./img/a-6.jpg" alt="" />
-					<div class="information">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Illo, et.
-						</p>
-						<h4>Türkiye</h4>
-					</div>
-				</div>
-		
+				</a>
+				<a href="#" class="content content5">
+					<div class="box box5">
+						<img src="./img/a-5.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div></a
+				>
+				<a href="#" class="content content6"
+					><div class="box box6">
+						<img src="./img/a-6.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div></a
+				>
 			</main>
-            <!-- end of main  -->
+			<!-- end of main  -->
 		</div>
+        <script>
+            const box1 = document.querySelector(".box1 img")
+            const box2 = document.querySelector(".box2 img")
+            const box3 = document.querySelector(".box3 img")
+            const box4 = document.querySelector(".box4 img")
+            const box5 = document.querySelector(".box5 img")
+            const box6 = document.querySelector(".box6 img")
+            box1.addEventListener("mouseover",()=>{
+                box1.src = "./img/Flag.png"
+            })
+            box1.addEventListener("mouseout",()=>{
+                box1.src = "./img/a-1.jpeg"                                
+            })
+            
+            box2.addEventListener("mouseover",()=>{
+                box2.src = "./img/Flag.png"
+            })
+            box2.addEventListener("mouseout",()=>{
+                box2.src = "./img/a-3.jpg"                                
+            })
+            box3.addEventListener("mouseover",()=>{
+                box3.src = "./img/Flag.png"
+            })
+            box3.addEventListener("mouseout",()=>{
+                box3.src = "./img/a-2.jpeg"                                
+            })
+            
+            box4.addEventListener("mouseover",()=>{
+                box4.src = "./img/Flag.png"
+            })
+            box4.addEventListener("mouseout",()=>{
+                box4.src = "./img/a-4.jpeg"                                
+            })
+            
+            box5.addEventListener("mouseover",()=>{
+                box5.src = "./img/Flag.png"
+            })
+            box5.addEventListener("mouseout",()=>{
+                box5.src = "./img/a-5.jpg"                                
+            })
+            
+            box6.addEventListener("mouseover",()=>{
+                box6.src = "./img/Flag.png"
+            })
+            box6.addEventListener("mouseout",()=>{
+                box6.src = "./img/a-6.jpg"                                
+            })
+            
+        </script>
 	</body>
 </html>
